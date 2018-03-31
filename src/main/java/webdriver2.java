@@ -11,5 +11,6 @@ public class webdriver2 {
         driver = new FirefoxDriver();
         //driver.get("http://www.baidu.com");
         driver.navigate().to("http://www.bilibli.com");
+        driver.close();
     }
 }
